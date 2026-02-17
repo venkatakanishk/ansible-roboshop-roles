@@ -1,14 +1,14 @@
 - name: run app-setup
+  tags:
+  - deployment
   ansible.builtin.import_role:
-    tags:
-    - deployment
     name: common
     tasks_from: app-setup.yaml
     
 - name: run nodejs setup
+  tags:
+  - deployment
   ansible.builtin.import_role:
-    tags:
-    - deployment
     name: common
     tasks_from: nodejs-setup.yaml
 
