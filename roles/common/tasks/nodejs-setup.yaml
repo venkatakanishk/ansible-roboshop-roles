@@ -1,4 +1,6 @@
 - name: Enabling new nodejs modules
+  tags:
+  - deployment
   ansible.builtin.command: dnf module enable nodejs:20 -y
   
 - name: Install nodejs
