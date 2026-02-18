@@ -9,5 +9,5 @@ filters:
   tag:Name: frontend
   instance-state-name : running
 keyed_groups:
-  prefix: ""
+  prefix: " "
   key: frontend
