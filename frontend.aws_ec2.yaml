@@ -6,8 +6,9 @@ hostnames:
 - tag:Name
 - private-ip-address
 filters:
-  tag:Name: frontend
   instance-state-name : running
+  tag:Name: frontend
+
 keyed_groups:
-  prefix: " "
+- prefix: " "
   key: frontend
