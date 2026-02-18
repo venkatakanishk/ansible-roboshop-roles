@@ -8,4 +8,4 @@ filters:
   tag:Name: frontend
 keyed_groups:
 - prefix: " "
-  key: tags.Name
+  key: tags.component
