@@ -17,8 +17,6 @@
     state: directory
 
 - name: delete {{ component }} app directory
-  tags:
-  - deployment
   ansible.builtin.file:
     path: /tmp/{{ component }}.zip
     state: absent
