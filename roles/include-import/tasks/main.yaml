@@ -1,0 +1,4 @@
+- name: include-import role for message
+  ansible.builtin.import_role:
+  name: common
+  tasks_from: include-import.yaml
